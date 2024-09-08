@@ -1,6 +1,7 @@
 import * as mongodb from "mongodb";
 import { Employee } from "./employee";
 
+//Resumo deste arquivo: conecta ao db, pega a collection, valida e exporta
 
 export const collections: {
     employees?: mongodb.Collection<Employee>;
