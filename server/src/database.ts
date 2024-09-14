@@ -1,7 +1,8 @@
+//Neste arquivo se define funções para conectar ao db, 
+//pegar a collection, validar e exportar
+
 import * as mongodb from "mongodb";
 import { Employee } from "./employee";
-
-//Resumo deste arquivo: conecta ao db, pega a collection, valida e exporta
 
 export const collections: {
     employees?: mongodb.Collection<Employee>;
